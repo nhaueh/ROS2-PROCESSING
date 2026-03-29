@@ -1,0 +1,19 @@
+# ROS2 / colcon artifacts
+build/
+install/
+log/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# VS Code workspace data
+.vscode/
+src/.vscode/
+
+# Windows alternate data stream metadata
+*:Zone.Identifier
+# Nested Windows ADS metadata
+**/*:Zone.Identifier
