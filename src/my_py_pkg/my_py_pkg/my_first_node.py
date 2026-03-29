@@ -16,7 +16,7 @@ class MyNode(Node):
     # 2. Định nghĩa hàm Callback - Đây là hành động sẽ lặp lại mãi mãi
     def timer_callback(self):
         self.counter_ += 1
-        self.get_logger().info("rrrrrrrrrrrrrrr: " + str(self.counter_))
+        self.get_logger().info("rfffffff: " + str(self.counter_))
 
 def main(args=None):
     rclpy.init(args=args)
